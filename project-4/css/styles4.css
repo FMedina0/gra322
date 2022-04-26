@@ -1,0 +1,105 @@
+html {
+    --gray: #444;
+    --brown: #7B5F55;
+    --light-brown: #f2f2f2;
+}
+
+body {
+    font-family: 'Diadact Gothic', sans-serif;
+    background-color: var(--light-brown);
+    
+}
+
+h1 {
+    color: var(--light-brown);
+    font-weight: 500;
+    font-family: 'Diadact Gothic', sans-serif;
+    padding-top: 2rem;
+}
+
+h2 {
+    color: var(--light-brown);
+    font-weight:500
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px)[main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+header {
+    background-color: var(--brown);
+    font-family: 'Diadact Gothic', sans-serif;
+    border-radius: 0px;
+}
+
+h2 {
+    text-align: right;
+  }
+
+h3 {
+    grid-template-columns: 1fr;
+    color: var(--light-brown);
+    background-color: var(--brown);
+    padding: 1.5rem
+}
+
+h4 {
+    color: var(--brown);
+}
+
+.container {
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+}
+
+.menu {
+
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px
+}
+
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #7B5F55;
+    font-size:20px
+}
+
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: var(--brown);
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 16px;
+    }
+
+    .menu-group {
+        grid-template-columns: repeat (2, 1fr);
+        color: var(--brown);
+    }
+}
+
+.menu-box {
+    margin-left: 0rem;
+    background-color: var(--brown);
+}
+
+.footer {
+    margin: 1.6rem;
+    background-color: var(--brown);
+    padding: 1.5rem;
+    border-radius: 25px;
+}
