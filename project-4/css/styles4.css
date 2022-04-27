@@ -35,7 +35,9 @@ h2 {
 header {
     background-color: var(--brown);
     font-family: 'Diadact Gothic', sans-serif;
-    border-radius: 0px;
+    border-radius: 0 0 25px 25px;
+    z-index: 1;
+    position: relative
 }
 
 h2 {
@@ -95,12 +97,17 @@ h4 {
 .menu-box {
     margin-left: 0rem;
     background-color: var(--brown);
-    padding-left: 1rem;
+    padding-left: 1rem
 }
 
 .footer {
-    margin: 1.6rem;
+    margin: 0rem;
     background-color: var(--brown);
     padding: 1.5rem;
-    border-radius: 25px;
+    border-radius: 25px 25px 0 0;
+    grid-column: full;
+}
+.figure {
+    margin-top: -2rem;
+    z-index: 0;
 }
