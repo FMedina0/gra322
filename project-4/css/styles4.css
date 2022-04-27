@@ -95,6 +95,7 @@ h4 {
 .menu-box {
     margin-left: 0rem;
     background-color: var(--brown);
+    padding-left: 1rem;
 }
 
 .footer {
