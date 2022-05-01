@@ -25,3 +25,7 @@ h1 {
 header {
     background-color: var(--gray-dark);
 }
+
+h2 {
+    display: inline-block;
+}
