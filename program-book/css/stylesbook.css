@@ -77,20 +77,27 @@ p {
 h2 {
     border-bottom: 2px solid #464749;
     
+    
 }
 
 .container {
     max-width: 1200;
     margin: 4rem;
     padding: 5.5rem;
+    
 
 }
 
 .row {
   display: flex;
+  
 }
 
 .column {
   flex: 75%;
   padding: 25px;
+}
+
+.img {
+    padding: 5rem;
 }
