@@ -90,12 +90,13 @@ h2 {
 
 .row {
   display: flex;
+  padding: 2rem;
   
 }
 
 .column {
-  flex: 75%;
-  padding: 25px;
+  flex: 85%;
+  padding: 30px;
 }
 
 .img {
