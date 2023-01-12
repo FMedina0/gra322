@@ -16,10 +16,10 @@
 
 <body>
   <!-- Add your content here -->
-    <div class="container">
-        <div class="out">
-            <div class="mid">
-                <div class="cent">
+    <div class="wrapper">
+        <div class="outer">
+            <div class="middle">
+                <div class="center">
 
   <!-- Load Scripts -->
   <script src="js/scripts.js"></script>
