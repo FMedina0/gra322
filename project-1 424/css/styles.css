@@ -1,31 +1,29 @@
-html {
-    --gray: #444;
-    --gray-dark: #333;
-    --gray-light: #f2f2f2;
+html, body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
-body {
-    font-family: 'Libre Franklin', sans-serif;
+.wrapper{
+    border: solid black 3px;
+    height: 84%;
+    display:flex;
 }
 
-h1 {
-    color: #fff;
-    font-weight: 500;
+.outer{
+    border: solid black 3px;
+    height: 84%;
+    display:flex;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px)[main-end] minmax(1rem, 1fr) [full-end];
+.middle{
+    border: solid black 3px;
+    height: 84%;
+    display:flex;
 }
 
-.grid > * {
-    grid-column: main;
-}
-
-header {
-    background-color: var(--gray-dark);
-}
-
-h2 {
-    display: inline-block;
+.center{
+    border: solid black 3px;
+    height: 84%;
+    display:flex;
 }
