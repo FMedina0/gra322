@@ -6,24 +6,28 @@ html, body{
 
 .wrapper{
     border: solid black 3px;
-    height: 84%;
+    height: 100%;
+    width: 100%;
     display:flex;
 }
 
 .outer{
     border: solid black 3px;
-    height: 84%;
+    height: 71.428571%;
+    width: 71.428571%;
     display:flex;
 }
 
 .middle{
     border: solid black 3px;
-    height: 84%;
+    height: 42.857143%;
+    width: 42.857143%;
     display:flex;
 }
 
 .center{
     border: solid black 3px;
-    height: 84%;
+    height: 14.285714%;
+    width: 14.285714%;
     display:flex;
 }
