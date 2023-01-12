@@ -20,6 +20,10 @@ html, body{
     display:flex;
 }
 
+.outer:after {
+    display: block;
+}
+
 .middle{
     border: solid black 3px;
     box-sizing: border-box;
@@ -28,10 +32,18 @@ html, body{
     display:flex;
 }
 
+.middle:after {
+    display: block;
+}
+
 .center{
     border: solid black 3px;
     box-sizing: border-box;
     height: 14.285714%;
     width: 14.285714%;
     display:flex;
+}
+
+.center:after {
+    display: block;
 }
