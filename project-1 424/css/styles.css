@@ -17,6 +17,7 @@ html, body{
     box-sizing: border-box;
     height: 71.428571%;
     width: 71.428571%;
+    position: relative;
     display:flex;
 }
 
@@ -29,6 +30,7 @@ html, body{
     box-sizing: border-box;
     height: 42.857143%;
     width: 42.857143%;
+    position: relative;
     display:flex;
 }
 
@@ -41,6 +43,7 @@ html, body{
     box-sizing: border-box;
     height: 14.285714%;
     width: 14.285714%;
+    position: relative;
     display:flex;
 }
 
